@@ -4,3 +4,6 @@ out
 .pnpm-store
 .DS_Store
 .env*
+!env.example
+*.tsbuildinfo
+next-env.d.ts

@@ -1,1 +1,21 @@
-export function About() { return <section id="about" className="border-t border-zinc-800 px-5 py-24 sm:px-8 lg:px-12" aria-labelledby="about-title"><div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.8fr_1.2fr]"><div><p className="text-sm font-medium tracking-[0.18em] text-violet-400 uppercase">About</p><h2 id="about-title" className="mt-4 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Built for scale. Grounded in quality.</h2></div><div className="max-w-2xl text-base leading-8 text-zinc-300"><p>Sujit is a Lead Data Engineer with 9+ years of experience designing cloud-native data platforms for analytics teams. He designs Azure and Databricks lakehouse architecture, API ingestion, incremental processing, and governed data products at enterprise scale.</p><p className="mt-5">He specializes in Azure Data Factory, ADLS, Azure Databricks, Unity Catalog, Lakeflow Connect, Lakeflow Jobs, PySpark, and medallion architecture—combining cost-aware infrastructure with rigorous lineage, governance, and data-quality practices.</p></div></div></section>; }
+import { SectionHeader } from "@/components/section-header";
+
+export function About() {
+  return (
+    <section id="about" className="scroll-mt-14 border-t border-zinc-800 px-5 py-24 sm:px-8 lg:px-12" aria-labelledby="about-title">
+      <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+        <SectionHeader eyebrow="About" id="about-title" title="Built for scale. Grounded in quality." />
+        <div className="max-w-2xl text-base leading-8 text-zinc-300">
+          <p>
+            I&rsquo;m a Lead Data Engineer with 9+ years of experience designing cloud-native lakehouse platforms on AWS and Azure,
+            including GxP-regulated pharmaceutical environments where lineage and accuracy are non-negotiable.
+          </p>
+          <p className="mt-5">
+            I modernize legacy ETL into Spark-native architectures, build metadata-driven and API ingestion frameworks, and
+            reduce infrastructure spend without trading away reliability. I also mentor engineers and set delivery standards.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

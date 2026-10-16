@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img">
+<defs>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#27272a" stroke-width="0.7"/>
+  </pattern>
+</defs>
+<rect width="900" height="480" fill="#141418"/>
+<rect width="900" height="480" fill="url(#grid)" opacity="0.55"/>
+<text x="450" y="68" fill="#a78bfa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" letter-spacing="2.2" text-anchor="middle">PRIVATE LLM WORKFLOW · CONTROLLED ENVIRONMENT (R&amp;D)</text>
+<rect x="46" y="140" width="175" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+<rect x="62" y="156" width="143" height="24" rx="5" fill="#27272a"/>
+<text x="134" y="172" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" text-anchor="middle">COMMERCIAL DATA</text>
+<text x="134" y="218" fill="#f4f4f5" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Billing Records</text>
+<text x="134" y="246" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" text-anchor="middle">Sensitive Internal Data</text>
+<rect x="257" y="140" width="175" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+<rect x="273" y="156" width="143" height="24" rx="5" fill="#27272a"/>
+<text x="344" y="172" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" text-anchor="middle">PREPARATION</text>
+<text x="344" y="218" fill="#f4f4f5" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Databricks Spark</text>
+<text x="344" y="246" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" text-anchor="middle">Context &amp; Prompt Assembly</text>
+<rect x="468" y="140" width="175" height="150" rx="10" fill="#18181b" stroke="#7c3aed" stroke-width="2"/>
+<rect x="484" y="156" width="143" height="24" rx="5" fill="#2e1065"/>
+<text x="556" y="172" fill="#c4b5fd" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" text-anchor="middle">INFERENCE</text>
+<text x="556" y="218" fill="#f4f4f5" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Local LLM Host</text>
+<text x="556" y="246" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" text-anchor="middle">No Public API Egress</text>
+<rect x="679" y="140" width="175" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+<rect x="695" y="156" width="143" height="24" rx="5" fill="#27272a"/>
+<text x="766" y="172" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" text-anchor="middle">VERIFICATION</text>
+<text x="766" y="218" fill="#f4f4f5" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Analyst Review</text>
+<text x="766" y="246" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" text-anchor="middle">Human-in-the-Loop Audit</text>
+<g stroke="#71717a" stroke-width="2" fill="#71717a">
+<path d="M225 215h22"/><path d="M245 210l9 5-9 5z" stroke="none"/>
+<path d="M436 215h22"/><path d="M456 210l9 5-9 5z" stroke="none"/>
+<path d="M647 215h22"/><path d="M667 210l9 5-9 5z" stroke="none"/>
+</g>
+<rect x="46" y="340" width="808" height="54" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="450" y="372" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" font-weight="500" text-anchor="middle">SECURITY BOUNDARY: All Commercial Data Remains Inside Private Compute Enclave</text>
+</svg>
